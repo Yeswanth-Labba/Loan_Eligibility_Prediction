@@ -1,13 +1,39 @@
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Loan Prediction Result</title>
-    </head>
-    <body>
-        <h1>Your Loan Prediction Result</h1>
-        <p>{{ prediction_result }}</p>
-        <a href="/">Go back to home</a>
-    </body>
-    </html>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Eligibility Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('result_background.jpg');
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .result {
+            margin-top: 200px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <h1>Loan Eligibility Prediction</h1>
+        <p>As per the details provided, the loan can be:</p>
+        <h2>{{ prediction_result }}</h2>
+    </div>
+</body>
+</html>
+
     
