@@ -1,4 +1,3 @@
-# Team-03-Github-Repository
 # Loan Eligibility Prediction
 
 This project aims to predict loan eligibility based on various features such as income, loan amount, credit history, and more. Using machine learning techniques, the model determines whether an applicant is likely to be approved for a loan.
@@ -17,7 +16,3 @@ This project aims to predict loan eligibility based on various features such as 
 - **Pandas**: For data manipulation.
 - **Jupyter Notebooks**: For experiments and model training.
 
-## Usage
-1. Clone the repository:
-   ```bash
-  (https://github.com/Yash5002G/Team-03-Github-Repository)
